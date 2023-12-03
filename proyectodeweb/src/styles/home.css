@@ -1,0 +1,135 @@
+/* Paleta de Colores */
+:root {
+    --purple-heart-50: #f3f1ff;
+    --purple-heart-100: #ebe5ff;
+    --purple-heart-200: #d9ceff;
+    --purple-heart-300: #bea6ff;
+    --purple-heart-400: #9f75ff;
+    --purple-heart-500: #843dff;
+    --purple-heart-600: #7916ff;
+    --purple-heart-700: #6b04fd;
+    --purple-heart-800: #5a03d5;
+    --purple-heart-900: #4b05ad;
+    --purple-heart-950: #2c0076;
+  }
+  
+  /* Estilos generales */
+/* Estilos generales */
+.card {
+  margin-top: 0;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+/* Resto de tus estilos ... */
+
+body {
+  margin: 0; /* Elimina el margen predeterminado del body */
+  padding: 0; /* Elimina el relleno predeterminado del body */
+  overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+}
+
+/* Otros estilos específicos de la página ... */
+
+
+  /* Encabezado */
+  header {
+    background-color: var(--purple-heart-400);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    max-height: 100px;
+    margin-left: 15px;
+  }
+  
+  .logo img {
+    margin-top: -25px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  /* Estilo para el botón de registro */
+  .boton {
+    display: flex;
+    padding: 10px 20px;
+    background-color: var(--purple-heart-500);
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none;
+    border: 3px solid var(--purple-heart-50);
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: var(--purple-heart-600);
+  }
+  
+  .boton-login {
+    display: block;
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    background-color: var(--purple-heart-700); /* Color de botón */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+    transition: background-color 0.3s ease;
+}
+
+.boton-login:hover {
+    background-color: var(--purple-heart-800); /* Cambio de color al pasar el ratón por encima */
+}
+  /* Estilo para el botón de búsqueda */
+  .busqueda {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .busqueda input[type="text"],
+  .busqueda select,
+  .busqueda button {
+    margin: 2px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .busqueda input[type="text"],
+  .busqueda select {
+    width: 200px;
+    background-color: var(--purple-heart-100);
+    border: 2px solid black;
+  }
+  
+
+  /* Pie de Página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pie {
+    margin-left: 10px;
+  }
+  

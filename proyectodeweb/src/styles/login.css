@@ -1,0 +1,101 @@
+/* Estilo para la página de inicio de sesión */
+  
+.login-container{
+    position: relative;
+    z-index: 1;
+}
+.login {
+    background-color: var(--purple-heart-200);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    position: relative;
+    z-index: 2;
+    border-radius:10px;
+}
+
+.login h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--purple-heart-500); /* Color de acento */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--purple-heart-500); /* Color de acento */
+}
+.boton-retroceso {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la izquierda */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor a una mano al pasar por encima */
+    padding: 5px; /* Ajusta el espacio interno */
+}
+
+/* Estilos para la imagen de la flecha */
+.boton-retroceso img {
+    width: 20px; /* Tamaño de la imagen */
+    height: 20px; /* Tamaño de la imagen */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.boton-login {
+    display: block;
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    background-color: var(--purple-heart-700); /* Color de botón */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-login:hover {
+    background-color: var(--purple-heart-800); /* Cambio de color al pasar el ratón por encima */
+}
+
+p {
+    text-align: center;
+    color: var(--purple-heart-500); /* Color de acento */
+}
+
+p a {
+    color: var(--purple-heart-700); /* Color del enlace */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+body::before{
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px); /* Aplicar el filtro de desenfoque */
+    z-index: 1;
+}

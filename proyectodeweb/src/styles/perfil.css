@@ -1,0 +1,96 @@
+/* Paleta de Colores */
+:root {
+    --purple-heart-50: #f3f1ff;
+    --purple-heart-100: #ebe5ff;
+    --purple-heart-200: #d9ceff;
+    --purple-heart-300: #bea6ff;
+    --purple-heart-400: #9f75ff;
+    --purple-heart-500: #843dff;
+    --purple-heart-600: #7916ff;
+    --purple-heart-700: #6b04fd;
+    --purple-heart-800: #5a03d5;
+    --purple-heart-900: #4b05ad;
+    --purple-heart-950: #2c0076;
+  }
+  
+  /* Estilos generales */
+/* Estilos generales */
+.card {
+  margin-top: 0;
+  padding: 0;
+  z-index: 2;
+  
+}
+
+/* Resto de tus estilos ... */
+
+body {
+  margin: 0; /* Elimina el margen predeterminado del body */
+  padding: 0; /* Elimina el relleno predeterminado del body */
+  overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+}
+
+/* Otros estilos específicos de la página ... */
+
+
+  /* Encabezado */
+  header {
+    background-color: var(--purple-heart-400);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .logo {
+    max-height: 100px;
+    margin-left: 15px;
+  }
+  
+  .logo img {
+    margin-top: -25px;
+    width: 200px;
+    height: 150px;
+  }
+  p{
+    color: black;
+  }
+
+  .card_white {
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid var(--purple-heart-500);
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.1);
+    max-width: 300px;
+    width: 100%;
+    max-height: 80vh; /* Limita la altura al 80% de la altura de la ventana */
+/* Agrega desplazamiento vertical si es necesario */
+  }
+  
+  .c_card {
+    text-align: center;
+    
+  }
+  
+
+  /* Pie de Página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pie {
+    margin-left: 10px;
+  }
+  
